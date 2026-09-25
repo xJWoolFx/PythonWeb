@@ -41,4 +41,3 @@ npm run dev
 
 O frontend acessa `http://127.0.0.1:8000/api/usuarios/` através do proxy do Vite.
 
-## 📁 Estrutura do projeto
