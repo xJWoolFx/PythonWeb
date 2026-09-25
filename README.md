@@ -1,4 +1,4 @@
-# Nome do Projeto
+# Projeto Python
 
 Projeto full-stack com **Vue.js** no frontend, **Python (Django)** no backend e **PostgreSQL** como banco de dados.
 
