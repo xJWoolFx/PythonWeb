@@ -1,0 +1,25 @@
+## Executar o projeto
+
+### Backend
+
+Com o PostgreSQL ativo e o arquivo `saves.env` configurado:
+
+```powershell
+..\.venv\Scripts\Activate.ps1
+cd backend
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+### Frontend
+
+Em outro terminal:
+
+```powershell
+cd frontend
+npm install
+npm run dev
+```
+
+O frontend acessa `http://127.0.0.1:8000/api/usuarios/` através do proxy do Vite.
